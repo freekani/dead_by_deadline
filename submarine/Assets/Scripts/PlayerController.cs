@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public Vector3 defaultPosition;
     public Vector3 defaultRotation;
 
-    private float moveSpeed;
+    public float moveSpeed;
     public float rotateSpeed;
     private Vector3 pos;
 

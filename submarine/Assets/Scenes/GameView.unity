@@ -298,7 +298,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultPosition: {x: 0, y: 0, z: 0}
   defaultRotation: {x: 0, y: 0, z: 0}
-  moveSpeedMagnification: 0.1
+  moveSpeed: 1
+  rotateSpeed: 0.2
   radius: 50
 --- !u!54 &1640790474
 Rigidbody:
@@ -389,4 +390,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-
