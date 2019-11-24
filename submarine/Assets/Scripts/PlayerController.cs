@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
     public void Update()
     {
         if (radius <= 0) radius = 50;
+        this.transform.rotation = new Quaternion(0,this.transform.rotation.y,0,this.transform.rotation.w);
     }
 
     public void FixedUpdate()
